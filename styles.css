@@ -1,5 +1,5 @@
-/* General Reset */
-* {
+ /* General Reset */
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,7 +35,7 @@ header {
 header h1 {
     font-size: 32px;
     font-weight: bold;
-    color: #242424;
+    color: #242424; /* Scarlet color */
 }
 
 header .contact-info {
