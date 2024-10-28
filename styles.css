@@ -1,85 +1,152 @@
-/* Basic Reset */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
+/* Page Layout */
 body {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
     color: #333;
-    background-color: #f7f7f7;
-    line-height: 1.6;
+    margin: 20px;
+    background-color: #f9f9f9;
 }
 
-/* Header */
+/* Main Container */
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
 header {
-    background-color: #002f6c; /* Red Sox Blue */
-    color: #bd3039; /* Red Sox Red */
     text-align: center;
-    padding: 1.5rem 0;
+    margin-bottom: 20px;
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 32px;
+    font-weight: bold;
+    color: #242424;
 }
 
-header p {
-    font-size: 1.2rem;
-    color: #ffffff;
+header .contact-info {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #555;
 }
 
-/* Section Headers */
-h2 {
-    color: #002f6c;
-    font-size: 1.8rem;
-    margin-bottom: 0.5rem;
-    border-bottom: 2px solid #bd3039;
-    padding-bottom: 0.25rem;
+/* Section Titles */
+section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #242424;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #242424;
 }
 
-/* About Section */
-#about {
-    padding: 2rem;
-    text-align: center;
-    background: #ffffff;
-    margin-bottom: 1rem;
+/* Work History */
+.work-experience .job {
+    margin-bottom: 25px;
 }
 
-/* Experience and Skills Sections */
-#experience, #skills, #projects {
-    padding: 1.5rem;
-    background: #ffffff;
-    margin-bottom: 1rem;
+.work-experience .job h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #242424;
 }
 
-.job {
-    margin-bottom: 1rem;
+.work-experience .job .company {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
 }
 
-/* Skills List */
+.work-experience .job .date {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.work-experience .job ul {
+    padding-left: 20px;
+}
+
+.work-experience .job ul li {
+    margin-bottom: 5px;
+}
+
+/* Education */
+.education .degree {
+    margin-bottom: 15px;
+}
+
+.education .degree h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #242424;
+}
+
+.education .degree .school {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.education .degree .date {
+    font-size: 13px;
+    color: #888;
+}
+
+/* General Text Formatting */
+p {
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* List Styling */
 ul {
-    list-style-type: square;
-    padding-left: 1.5rem;
-}
-
-li {
-    margin-bottom: 0.5rem;
+    list-style-type: disc;
+    margin-left: 20px;
 }
 
 /* Footer */
 footer {
     text-align: center;
-    padding: 1rem 0;
-    background: #002f6c;
-    color: #ffffff;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999;
 }
 
-footer a {
-    color: #bd3039;
-    text-decoration: none;
-}
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
 
-footer a:hover {
-    text-decoration: underline;
+    header h1 {
+        font-size: 28px;
+    }
+
+    section h2 {
+        font-size: 18px;
+    }
 }
