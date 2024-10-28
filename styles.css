@@ -1,0 +1,85 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    background-color: #f7f7f7;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #002f6c; /* Red Sox Blue */
+    color: #bd3039; /* Red Sox Red */
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+/* Section Headers */
+h2 {
+    color: #002f6c;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #bd3039;
+    padding-bottom: 0.25rem;
+}
+
+/* About Section */
+#about {
+    padding: 2rem;
+    text-align: center;
+    background: #ffffff;
+    margin-bottom: 1rem;
+}
+
+/* Experience and Skills Sections */
+#experience, #skills, #projects {
+    padding: 1.5rem;
+    background: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.job {
+    margin-bottom: 1rem;
+}
+
+/* Skills List */
+ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #002f6c;
+    color: #ffffff;
+}
+
+footer a {
+    color: #bd3039;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
